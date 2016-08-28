@@ -1,0 +1,19 @@
+http://terms.naver.com/entry.nhn?docId=3338178&cid=47324&categoryId=47324
+ 
+unsigned int C[MAX + 1][MAX + 1] = { 0 };
+void calcBino() {
+    for (int i = 0; i <= MAX; i++) {
+        C[i][0] = C[i][i] = 1;
+        for (int j = 1; j < i; j++)
+            C[i][j] = C[i-1][j-1] + C[i-1][j];
+    }
+}
+
+
+int recursive(int n,int k){
+	if (k == 0 || k == n) return 1;
+	
+	// use memoization
+
+	return recursive(n - 1, k - 1) + recursive(n - 1, k);
+}
