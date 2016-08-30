@@ -1,5 +1,5 @@
-// ÀÌ¹®Á¦´Â O(N)À¸·Î Ç®¼ö ÀÖ´Â ¹®Á¦ ¿´À½...
-// 0À» -1·Î ¹Ù²ã »ý°¢ÇÏ¸é ÃÖÀå min sum sequence·Î »õ¾ÇÇÒ ¼ö ÀÖÀ½.
+// ì´ë¬¸ì œëŠ” O(N)ìœ¼ë¡œ í’€ìˆ˜ ìžˆëŠ” ë¬¸ì œ ì˜€ìŒ...
+// 0ì„ -1ë¡œ ë°”ê¿” ìƒê°í•˜ë©´ ìµœìž¥ min sum sequenceë¡œ ìƒê°í•  ìˆ˜ ìžˆìŒ.
 //#include <cstdio>
 //#include <vector>
 //#include <algorithm>

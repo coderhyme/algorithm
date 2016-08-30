@@ -1,0 +1,5 @@
+값의 범위가 정해진 경우 사용 가능.(배열이 필요)
+
+인덱스를 증가시켜가면서 현재까지의 Longest non-decreasing sequence 크기를 찾음.(LIS도 가능할듯)
+
+Fast-LIS.cpp 참고
